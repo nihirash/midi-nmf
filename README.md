@@ -29,7 +29,13 @@ Currently, player works with ZX Spectrum 128's midi output port(based on AY's GP
 
  ### esxDOS player for using on interrupts 
 
- To be done!
+ Simple int-based player for using in non-dynamic games or demos :-)
+
+ Compile example with `sjasmplus`, put on SD card with some converted midi named `test.nmf` and run tap. 
+
+ It should show simple demoscene effect with background midi music.
+
+ It should work on any 128k speccy with divMMC/divIDE + Midi synth connected to midi output of spectrum. It also should work on ZXUno(with turbo mode disabled).
 
  # Legal info
 
